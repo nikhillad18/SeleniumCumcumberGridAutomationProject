@@ -47,6 +47,7 @@ public class HomePageSteps {
 	public void user_should_be_directed_to_application_page(DataTable datatable) {
 		List<String> applicationNames=datatable.asList();
 		homePage.verifySalesCloudApplicationLoadedSuccessfully(applicationNames.get(0));
+		System.out.println("User directed to home page successfully");
 	}
 
 
