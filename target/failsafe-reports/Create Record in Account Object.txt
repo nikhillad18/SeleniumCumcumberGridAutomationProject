@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: Create Record in Account Object
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.52 s <<< FAILURE! - in Create Record in Account Object
+Create Record in Account Object(Create Record in Account Object)  Time elapsed: 12.52 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user is present on the service page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user is present on the service page")
+public void user_is_present_on_the_service_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("user clicks on Account Tab")
+public void user_clicks_on_account_tab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on New Button")
+public void user_clicks_on_new_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enters Account Name in create Account Pop up")
+public void user_enters_account_name_in_create_account_pop_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user selects Account type in create Account Pop up")
+public void user_selects_account_type_in_create_account_pop_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user selects Industry in create Account Pop up")
+public void user_selects_industry_in_create_account_pop_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on save button in create Account Pop up")
+public void user_clicks_on_save_button_in_create_account_pop_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Record should be successfuly created in Account object")
+public void record_should_be_successfuly_created_in_account_object() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
